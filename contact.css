@@ -1,0 +1,253 @@
+
+#contact {
+    width: 75%;
+    margin: 0 auto;
+}
+    .services-boxes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .service-box {
+     width: 350px;
+     height: max-content;
+     background-color: #333333;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px 40px 60px 40px;
+     border-radius: 2px;
+    }
+    .service-icon {
+        width: 100px;
+        height: 100px;
+        background-color: #bac964;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .service-icon img {
+        width: 50%;
+    }
+    .service-header {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+    .service-text {
+        text-align: center;
+       line-height:  25px;
+       margin-bottom: 20px;
+       color: #828282;
+    }
+    .learn-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .learn-more a {
+        color: #bac964;
+    }
+    .learn-more img {
+        width:13px;
+        margin-left: 10px;
+        margin-top: 2px;
+        transition: .5s;
+    }
+    .learn-more:hover img{
+     margin-left: 40px;
+    }
+    .sec-2 {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .blog-pic{
+        width: 100%;
+        height: 50%;
+    }
+    .blog-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    .blogs-contents {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .blog-box{
+        width: 350px;
+     height: max-content;
+     background-color: #333333;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     transition: .3s;
+
+    }
+    .comment-date {
+        width: 100%;
+        color: #828282;
+        margin-top: 32px;
+
+
+    }
+
+    .comment-date img {
+        width: 14px;
+        margin-right: 5px;
+        object-fit: cover;
+    }
+    .date {
+        margin-right: 20px;
+    }
+    .comment-date a {
+        color: #828282;
+        font-size: 14px;
+
+    }
+    .blog-header {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .main-box {
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        margin: 20px 0;;
+    }
+    .blog-text {
+        color: #828282;
+        line-height: 25px;
+    }
+    .comment-date a:hover {
+        color: #bac964;
+    } 
+
+    .blog-box:hover{
+       margin-top: -5px;
+       
+    }
+    .blog-header:hover {
+        color: #bac964;
+    }
+   
+  
+    .form-boxses {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    .form {
+        width: 60%;
+    }
+    .info {
+    width: 35%;
+    }
+    .form-header{
+        font-size: 34px;
+        font-weight: 300;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-right: 20px;
+        
+    }
+    
+    input {
+            height: 50px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            background-color: #333333;
+            border: none;
+            font-size: 16px;
+    
+    }
+    input::placeholder{
+            color: #999990;
+    }
+    textarea {
+        padding: 10px;
+        background-color: #333333;
+        border: none;
+        font-size: 16px;
+    
+    }
+    textarea::placeholder {
+        color: #999990;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .about span {
+    
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #293e50;
+    
+    }
+    .about p {
+        color: #787878;
+    }
+    .send {
+        padding: 20px 40px;
+        border-radius: 40px;
+        background-color: #bac964;
+        margin-top: 50px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .send:hover {
+        background-color:#b2c251;
+    }
+    footer{
+       
+        padding-bottom: 25px;
+    }
+    footer a {
+        color: #7ef46c;
+    }
+    footer p {
+        font-weight: 300;
+        margin: 120px auto 60px auto;
+        width: max-content;
+    }
+    footer a:hover {
+        color:#5ec74e
+    }
+    .social {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .social div {
+        width: 60px;
+        height: 60px;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .social img {
+        width: 50%;
+    }

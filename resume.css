@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+
+}
+
+#resume {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.header span {
+    font-weight: 600;
+}
+.contents {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right{
+    width: 50%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    width: 100%;
+    background-color: #333333;
+    padding: 25px 35px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.box span {
+    font-size: 11px;
+}
+.box div {
+    margin-bottom: 15px;
+    display: flex;
+     align-items: center;
+}
+
+.box img {
+    margin-right: 5px;
+}
+.box p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height:23px;
+    color: #7f7f7f;
+}
+.sub_header{
+    color: #9cc961 !important;
+    font-size: 20px !important;
+}
+.category {
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0  25px;
+    margin: 100px auto;
+}
+.image_box {
+    width: 54%;
+}
+.image_box img {
+    width: 100%;
+    object-fit: cover;
+}
+.about_me {
+    width: 40%;
+    padding-top: 30px;
+}
+.header_me{
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    color: white !important;
+
+}
+.header_me span {
+    font-weight: 600;
+}
+.about_me p {
+    line-height:23px;
+    color: #7f7f7f;
+    font-weight: 300;
+    }
+.about_me p:nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 15px;
+               line-height:30px;
+
+    }
+
+    button {
+        padding: 11px 30px;
+        border-radius: 25px;
+        margin-top: 50px;
+        font-size: 12px;
+        letter-spacing: 3px;
+        cursor: pointer;
+        border: none;
+    }
+    .hire_me {
+        background-color: #b2c251;
+    }
+    .hire_me:hover {
+        background-color: #c4d45e; ;
+    }
+    .download {
+        background-color: #7f7f7f;
+    }
+    .download:hover{
+        background-color: #929292;
+
+
+
+    }
+
+    .box:hover {
+        background-color: #454545;
+    }
